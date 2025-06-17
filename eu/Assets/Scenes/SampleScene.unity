@@ -221,8 +221,8 @@ Transform:
   m_GameObject: {fileID: 406228114}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.5015, y: -0, z: 11.2061}
-  m_LocalScale: {x: 20.003273, y: 1, z: 23.412079}
+  m_LocalPosition: {x: -125.396, y: 0, z: 57.4186}
+  m_LocalScale: {x: 629.9782, y: 1, z: 460.624}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -532,6 +532,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1496317593}
+    - target: {fileID: 2308535344828315814, guid: c5924532c01731343a56c150f6190994, type: 3}
+      propertyPath: velocidadeDaAnimacao
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2314137441506345621, guid: c5924532c01731343a56c150f6190994, type: 3}
       propertyPath: m_Name
       value: Personagem
@@ -605,6 +609,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1160863932}
+    - target: {fileID: 6907008351296793150, guid: c2ce789e306b82a4b975d4c52237a4ad, type: 3}
+      propertyPath: velocidadeDaAnimacao
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
