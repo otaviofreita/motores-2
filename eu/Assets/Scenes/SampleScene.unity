@@ -465,6 +465,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1160863932 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5951850448110592528, guid: c2ce789e306b82a4b975d4c52237a4ad, type: 3}
+  m_PrefabInstance: {fileID: 3342072889841782730}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1496317593 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3048278822419774052, guid: c5924532c01731343a56c150f6190994, type: 3}
+  m_PrefabInstance: {fileID: 2492585040358429268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1884989283 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1973625929353190809, guid: c5924532c01731343a56c150f6190994, type: 3}
@@ -518,10 +528,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2308535344828315814, guid: c5924532c01731343a56c150f6190994, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1496317593}
     - target: {fileID: 2314137441506345621, guid: c5924532c01731343a56c150f6190994, type: 3}
       propertyPath: m_Name
       value: Personagem
       objectReference: {fileID: 0}
+    - target: {fileID: 3048278822419774052, guid: c5924532c01731343a56c150f6190994, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a83b554c962dc964b8186e562348aebc, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -579,6 +597,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inimigo
       objectReference: {fileID: 0}
+    - target: {fileID: 5951850448110592528, guid: c2ce789e306b82a4b975d4c52237a4ad, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5dc3482c777d8d641a9f74906f7cd744, type: 2}
+    - target: {fileID: 6907008351296793150, guid: c2ce789e306b82a4b975d4c52237a4ad, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1160863932}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
