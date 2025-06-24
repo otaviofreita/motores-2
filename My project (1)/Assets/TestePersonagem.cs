@@ -10,10 +10,10 @@ public class TestePersonagem : MonoBehaviour
         // Inicializa valores (caso não preenchido no inspetor da Unity)
         if (fada1 != null && fada2 != null)
         {
-            Debug.Log($"Mago 1: {Fada1.Nome}, N" + $"Nível: {Fada1.Nivel}, Vida: {Fada1.Vida}, Mana: {Fada1.Mana}");
-            Debug.Log($"Mago 2: {Fada2.Nome}, Nível: {Fada2.Nivel}, Vida: {Fada2.Vida}, Mana: {Fada2.Mana}");
+            Debug.Log($"Fada 1: {fada1.Nome}, N" + $"Nível: {fada1.Nivel}, Vida: {fada1.Vida}, Mana: {fada1.Mana}");
+            Debug.Log($"Fada 2: {fada2.Nome}, Nível: {fada2.Nivel}, Vida: {fada2.Vida}, Mana: {fada2.Mana}");
 
-            Debug.Log(Fada1.CompararNivel(Fada2));
+            Debug.Log(fada1.CompararNivel(fada2));
             
             
             
